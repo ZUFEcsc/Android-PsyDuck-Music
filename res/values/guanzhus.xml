@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="guanzhuimg">
+        <item >guanzhua</item>
+        <item >guanzhub</item>
+        <item >guanzhuc</item>
+        <item >guanzhud</item>
+        <item >guanzhue</item>
+        <item >guanzhuf</item>
+        <item >guanzhuc</item>
+        <item >guanzhud</item>
+    </string-array>
+    
+    <string-array name="guanzhuname">
+        <item > 东风吹雨过青山</item>
+        <item > 却望千门草色闲</item>
+        <item > 家在梦中何日到</item>
+        <item > 春来江人几人还</item>
+        <item > 川原缭绕浮云外</item>
+        <item > 宫阙参差落照间</item>
+        <item > 谁念为儒逢世难</item>
+        <item > 独江衰鬓客秦关</item>
+	</string-array>
+    
+</resources>

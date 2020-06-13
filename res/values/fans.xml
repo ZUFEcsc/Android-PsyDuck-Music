@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fansimg">
+        <item >fana</item>
+        <item >fanb</item>
+        <item >fanc</item>
+        <item >fand</item>
+        <item >fane</item>
+        <item >fanf</item>
+    </string-array>
+    
+    <string-array name="fansname">
+        <item > 超酷的随随</item>
+        <item > 陈杉nb</item>
+        <item > 花柳帝王城</item>
+        <item > 乍逢何短短</item>
+        <item > 哪个小宝贝</item>
+        <item > 可达可达鸭</item>
+	</string-array>
+</resources>

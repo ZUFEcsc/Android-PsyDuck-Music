@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lvtexts">
+        <item >関ジャニ∞</item>
+        <item >想见你：））</item>
+        <item >学习可比世俗有趣多了</item>
+        <item >教练我要三根皮带呀酱</item>
+        <item >NuNNNNNNNN√</item>
+        <item >2020.02.20</item>
+    </string-array>
+    
+    <string-array name="lvicons">
+        <item >guanbasmall</item>
+        <item >xhj</item>
+        <item >wkd</item>
+        <item >lcfnb</item>
+        <item >n</item>
+        <item >love</item>
+    </string-array>
+    
+</resources>

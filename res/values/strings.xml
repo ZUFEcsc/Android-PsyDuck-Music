@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PsyDuckMusic</string>
+    <string name="hello">Hello World, PsyDuckMusicActivity!</string>
+    <string name="zscd">PsyDuckMusic</string>
+    <string name="tvUid">账号：</string>
+    <string name="tvPwd">密码：</string>
+    <string name="btnLogin">登陆</string>
+    <string name="btnReg">注册</string>
+    <string name="btnRtn">返回</string>
+    <string name="tvReg">用户注册</string>
+    <string name="sex">性别：</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="hobby">爱好：</string>
+    <string name="tabtitle1">我的</string>
+    <string name="tabtitle2">电台</string>
+    <string name="tabtitle3">查找</string>
+    <string name="tabtitle4">动态</string>
+    <string name="userName">PsyDuck</string>
+
+</resources>

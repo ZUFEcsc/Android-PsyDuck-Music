@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+ 
+ 	<ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cd1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom"
+        android:background="#33000000"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前进吧！少年！"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/dot_0"
+                android:layout_width="5dip"
+                android:layout_height="5dip"
+                android:background="@drawable/dot_focused" />
+
+            <View
+                android:id="@+id/dot_1"
+                android:layout_width="5dip"
+                android:layout_height="5dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/dot_normal" />
+
+            <View
+                android:id="@+id/dot_2"
+                android:layout_width="5dip"
+                android:layout_height="5dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/dot_normal" />
+
+            <View
+                android:id="@+id/dot_3"
+                android:layout_width="5dip"
+                android:layout_height="5dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/dot_normal" />
+
+            <View
+                android:id="@+id/dot_4"
+                android:layout_width="5dip"
+                android:layout_height="5dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/dot_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvRadio"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_weight="0.04" >
+
+        </ListView>
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRtn"
+        android:textColor="@color/listDivider"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Hello~ Write by Chen Binjie." />
+
+</LinearLayout>

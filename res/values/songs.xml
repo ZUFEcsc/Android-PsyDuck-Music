@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="songname">
+        <item >関ジャニ∞ (关8) - 無限大 [mqms2]</item>
+        <item >関ジャニ∞ - 大阪レイニーブルース</item>
+        <item >関ジャニ∞ - monologue</item>
+        <item >関ジャニ∞ - 噂のオトコマエイト!</item>
+    </string-array>
+    <string-array name="songimg">
+        <item >gbone</item>
+        <item >gbtwo</item>
+        <item >gbthree</item>
+        <item >gbfour</item>
+    </string-array>
+</resources>

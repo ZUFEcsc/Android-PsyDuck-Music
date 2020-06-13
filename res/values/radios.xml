@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="radioname">
+        <item >温柔在此，速来</item>        
+        <item >小张の平房 1/350</item>
+        <item >没有什么会永远糟糕透顶</item>
+        <item >用翻唱诉一曲衷肠</item>
+    </string-array>
+    <string-array name="radioimg">
+        <item >gbone</item>
+        <item >gbtwo</item>
+        <item >gbthree</item>
+        <item >gbfour</item>
+    </string-array>
+</resources>

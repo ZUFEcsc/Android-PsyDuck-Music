@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prendtime">
+        <item >2020-06-01\n00：05：34</item>
+        <item >2020-02-20\n13：55：26</item>
+        <item >2019-12-10\n09：32：43</item>
+        <item >2019-11-28\n23：55：23</item>
+    </string-array>
+    
+    <string-array name="prenditem">
+        <item > 六一儿童节快乐阿酱！</item>
+        <item > 心碎2020年2月20号</item>
+        <item > 回家就快回家了，努力！</item>
+        <item > 关8十二月出奇迹，冲~~~</item>
+	</string-array>
+</resources>
