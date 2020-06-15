@@ -6,6 +6,9 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +33,9 @@ public class RegisterActivity extends Activity {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.register);
 	        
+	        etUserName = (EditText)this.findViewById(R.id.editText1);
+	        etUserPass = (EditText)this.findViewById(R.id.editText2);	        
+	        
 	        Button btReg = (Button)this.findViewById(R.id.button1);
 	        Button btBack = (Button)this.findViewById(R.id.button2);
 	        btReg.setOnClickListener(new View.OnClickListener() {
@@ -42,18 +48,28 @@ public class RegisterActivity extends Activity {
 //					String sql = "insert into user(uname,upwd) values('"+userName+"','"+userPass+"')";
 //					db.execSQL(sql);
 //					db.close();
-					try {
-						Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-						conn=DriverManager.getConnection(dbURL,userName,userPwd);
-						sqlStr="insert into users values('"+userName+"','"+userPass+"')";
-						st=conn.createStatement();
-						st.execute(sqlStr);
-						
+//					try {
+//						Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//						conn=DriverManager.getConnection(dbURL,userName,userPwd);
+//						sqlStr="insert into users values('"+userName+"','"+userPass+"')";
+//						st=conn.createStatement();
+//						st.execute(sqlStr);
+//						
+//					}
+//					catch(Exception e1) {
+//						System.out.print("数据库连接失败"+e1.getMessage());
+//					}
+//					finish();
+					if(userName != "" & userPass !="")
+					{
+						AlertDialog.Builder builder  = new Builder(RegisterActivity.this);
+						 builder.setTitle("恭喜") ;
+						 builder.setMessage("用户 "+userName+" 注册成功 ~ " ) ;
+						 builder.setPositiveButton("确定" ,null);
+						 builder.show(); 
+						Intent itreturn = new Intent(RegisterActivity.this,PsyDuckMusicActivity.class);
+						startActivity(itreturn);
 					}
-					catch(Exception e1) {
-						System.out.print("数据库连接失败"+e1.getMessage());
-					}
-					finish();
 				}
 			});
 	        btBack.setOnClickListener(new View.OnClickListener() {
