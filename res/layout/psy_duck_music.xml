@@ -4,8 +4,9 @@
     android:layout_height="fill_parent"
     android:background="@drawable/background"
     android:orientation="vertical" >
-
+
     <TextView
+        android:id="@+id/tv_psyduck"
         style="@style/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,9 +89,9 @@
             android:layout_height="wrap_content"
             android:text="@string/btnReg" />
     </LinearLayout>
-
+
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/tv_writer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"

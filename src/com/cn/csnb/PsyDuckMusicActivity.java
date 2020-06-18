@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class PsyDuckMusicActivity extends Activity {
 	public static final String SP_INFO = "zscd_data";
@@ -24,6 +25,8 @@ public class PsyDuckMusicActivity extends Activity {
 	private String uidStr;
 	private String upwdStr;
 	private CheckBox cb;
+	private TextView tvPsyduck;
+	private TextView tvCsnb;
 	
 	String sq;
 	Connection conn;
@@ -40,6 +43,28 @@ public class PsyDuckMusicActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.psy_duck_music);
+        
+        //跳转项目信息
+        tvPsyduck = (TextView)this.findViewById(R.id.tv_psyduck);
+        tvPsyduck.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent itPsyduck = new Intent(PsyDuckMusicActivity.this, PsyDuckIntroduction.class);
+        		startActivity(itPsyduck);
+			}
+		});
+        
+        //跳转个人信息
+        tvCsnb =(TextView)this.findViewById(R.id.tv_writer);
+        tvCsnb.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent itCsnb = new Intent(PsyDuckMusicActivity.this, Csnb.class);
+        		startActivity(itCsnb);
+			}
+		});
 
         etUid = (EditText)this.findViewById(R.id.etUid);
         etUpwd = (EditText)this.findViewById(R.id.etUpwd);

@@ -28,6 +28,8 @@
         <activity android:name=".Fans"></activity>
         <activity android:name=".PsyDuckItemActivity"></activity>
         <activity android:name=".SongItemActivity"></activity> 
+        <activity android:name=".PsyDuckIntroduction"></activity>
+        <activity android:name=".Csnb"></activity>
         <activity android:name="NormalActivity"></activity>
         <activity android:name="FrameTabActivity"></activity>
         <service android:name="MusicService"></service>
