@@ -117,14 +117,13 @@
  			    android:text="退出登录"
  			    android:textColor="@color/listDivider"
  			    android:textSize="18sp" />
-		
+		
 		    <TextView
 		        android:id="@+id/textView1"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="right"
-		        android:text="Hello~ Write by Chen Binjie." />
-
+		        android:text="@string/psyduck_zz" />
             
         </LinearLayout>
     </LinearLayout>

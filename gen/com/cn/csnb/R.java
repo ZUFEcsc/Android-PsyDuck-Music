@@ -203,23 +203,24 @@ containing a value of this type.
     }
     public static final class string {
         public static final int app_name=0x7f060000;
-        public static final int btnLogin=0x7f060005;
-        public static final int btnReg=0x7f060006;
-        public static final int btnRtn=0x7f060007;
-        public static final int female=0x7f06000b;
-        public static final int hello=0x7f060001;
-        public static final int hobby=0x7f06000c;
-        public static final int male=0x7f06000a;
-        public static final int sex=0x7f060009;
-        public static final int tabtitle1=0x7f06000d;
-        public static final int tabtitle2=0x7f06000e;
-        public static final int tabtitle3=0x7f06000f;
-        public static final int tabtitle4=0x7f060010;
-        public static final int tvPwd=0x7f060004;
-        public static final int tvReg=0x7f060008;
-        public static final int tvUid=0x7f060003;
-        public static final int userName=0x7f060011;
-        public static final int zscd=0x7f060002;
+        public static final int btnLogin=0x7f060006;
+        public static final int btnReg=0x7f060007;
+        public static final int btnRtn=0x7f060008;
+        public static final int female=0x7f06000c;
+        public static final int hello=0x7f060002;
+        public static final int hobby=0x7f06000d;
+        public static final int male=0x7f06000b;
+        public static final int psyduck_zz=0x7f060001;
+        public static final int sex=0x7f06000a;
+        public static final int tabtitle1=0x7f06000e;
+        public static final int tabtitle2=0x7f06000f;
+        public static final int tabtitle3=0x7f060010;
+        public static final int tabtitle4=0x7f060011;
+        public static final int tvPwd=0x7f060005;
+        public static final int tvReg=0x7f060009;
+        public static final int tvUid=0x7f060004;
+        public static final int userName=0x7f060012;
+        public static final int zscd=0x7f060003;
     }
     public static final class style {
         public static final int button=0x7f070002;

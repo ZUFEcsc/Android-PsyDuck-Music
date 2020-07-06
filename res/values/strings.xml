@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">PsyDuckMusic</string>
+    <string name="psyduck_zz">Hello~ Write By Chen Shan.</string>
     <string name="hello">Hello World, PsyDuckMusicActivity!</string>
     <string name="zscd">PsyDuckMusic</string>
     <string name="tvUid">账号：</string>

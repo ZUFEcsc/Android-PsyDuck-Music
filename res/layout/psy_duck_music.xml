@@ -89,12 +89,12 @@
             android:layout_height="wrap_content"
             android:text="@string/btnReg" />
     </LinearLayout>
-
+
     <TextView
         android:id="@+id/tv_writer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="Hello~ Write by Chen Binjie." />
+        android:text="@string/psyduck_zz" />
 
 </LinearLayout>

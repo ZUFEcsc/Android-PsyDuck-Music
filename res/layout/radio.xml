@@ -85,12 +85,12 @@
         android:text="@string/btnRtn"
         android:textColor="@color/listDivider"
         android:textSize="20sp" />
-
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="Hello~ Write by Chen Binjie." />
+        android:text="@string/psyduck_zz" />
 
 </LinearLayout>
